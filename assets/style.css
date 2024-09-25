@@ -1,7 +1,36 @@
 body{
     background-color: aquamarine;
-    font-family: Bai jamjuree;
+   font-family: bai jamjuree;
 }
+#container{
+    display: flex;
+}
+
+
+.cartao{
+    margin: 1rem 1rem;
+    background-color: blueviolet;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    background-color: brown;
+    height: 100%;
+}
+
+.cartao__conteudo h3 {
+   background-color: darkgreen;
+   text-align: left;
+   padding: 0.5rem;
+
+}
+
+
+
+
 
 footer{
     background-color: black;
@@ -15,4 +44,5 @@ footer{
 footer p {
 text-align: center;
 font-size: 0.6rem;
+margin-top: 0.5rem;
 }
